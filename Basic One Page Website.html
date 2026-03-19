@@ -1,0 +1,52 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My One Page Website about New York City!</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; }
+    nav { background: #333; padding: 10px; position: sticky; top: 0; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; }
+    section { padding: 50px; }
+    img { max-width: 300px; margin: 10px; }
+    footer { background: #333; color: white; text-align: center; padding: 20px; }
+  </style>
+</head>
+<body> <!-- Navigation --> <nav>
+    <a href="#home">Home</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#video">Video</a>
+    <a href="#contact">Contact</a>
+  </nav> <!-- Home Section --> <section id="home">
+    <h1>Welcome to My Website!</h1>
+  </section> <!-- Image Section --> <section id="gallery">
+    <h2>Image Gallery</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu_%28vertical_crop%29.jpg/250px-View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu_%28vertical_crop%29.jpg" alt="Empire STate Building">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/New_york_times_square-terabass.jpg" alt="Times Square">
+    <img src="https://res.cloudinary.com/shipit-cdn/images/c_scale,w_696,h_464/f_auto,q_auto/v1733410609/wordpress/new-york/new-york.jpg?_i=AA" alt="Lady Liberty">
+  </section> <!-- Video Section --> <section id="video">
+    <h2>Featured Video</h2>
+    <iframe width="560" height="315" 
+      src="https://www.youtube.com/embed/s8ctjBfWHBk?si=wMNpdgsHnTnk63JL" 
+      title="YouTube video player" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+  </section> <!-- Contact Form --> <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"><br><br><label for="email">Email:</label><br>
+  <input type="email" id="email" name="email"><br><br>
+
+  <label for="message">Message:</label><br>
+  <input type="text" id="message" name="message"><br><br>
+
+  <input type="submit" value="Submit">
+</form>
+
+  </section> <!-- Footer --> <footer>
+    <p>&copy; 2026 My Website. All rights reserved.</p>
+  </footer></body>
+</html>
