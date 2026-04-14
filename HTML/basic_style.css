@@ -1,0 +1,71 @@
+body{
+    background-color: #fff
+}
+
+h1{
+    color: rgba(8,141,165,1);
+    margin-left: 100px;
+    text-shadow: 1px 0.5px 4px rgba(0,0,0,0.6);
+}
+.container{
+    width: 450px;
+    height: 450px;
+    background-color: #faebd7;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+
+.container .squares:nth-child(-n+4) {
+    background-image: url("C:/Users/Student/Documents/Projects/HTML/Images/icons2.png");
+    color: #fff;
+float: left;
+width: 100px;
+height: 100px;
+margin: 5px;
+border: 1px solid black;
+border-radius: 25%;
+cursor: pointer;
+transition: transform .5s ease-in-out
+}
+
+.squares:nth-child(-n+4) p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+    text-shadow: 2px 1px 4px rgba(0,0,0,0.8);
+}
+.squares:nth-child(1){
+    background-color: #4240ff;
+}
+
+.sqauares:nth-child(2){
+    background-color: #ff0000;
+}
+
+.squares:nth-child(3){
+    background-color: #00ff00;
+}
+
+.squares:nth-child(4){
+    background-color: #ffff00;
+}
+
+.container .squares:nth-child(-n+4):hover{
+    background-image: url(".png");
+}
+
+.squares:nth-child(1):hover{
+    background: #13b4ff;
+}
+
+.squares:nth-child(2):hover{
+    background-color: #d861af;
+}
+.squares:nth-child(3):hover{
+    background-color: #81205f;
+}
+.squares:nth-child(4):hover{
+    background-color: #77b800;
+}
